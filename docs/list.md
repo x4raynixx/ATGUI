@@ -33,7 +33,7 @@ ATGUI.show_gui(
 │ > Select an     │
 │   Option        │
 ├─────────────────┤
-├─ Save file [〤]  │
+├─ Save file [〤]   │
 ├─ Open new file  │
 ╰─────────────────╯
 ```

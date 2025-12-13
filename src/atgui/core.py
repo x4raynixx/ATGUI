@@ -118,7 +118,7 @@ class Manager:
             
             gui = self.guis[gui_name]
 
-            if gui["menu"] and able_to_select:
+            if gui["menu"] == "select" and able_to_select:
                 selected_option = 1
                 gui["function"](*args, **kwargs, selected_option=selected_option)
 
@@ -201,6 +201,8 @@ class Manager:
                         if gui["delay"]:
                             time.sleep(gui["delay"])
 
+            elif gui["menu"] == "input" and able_to_select:
+                pass            
             else:
                 gui["function"](*args, **kwargs)
 

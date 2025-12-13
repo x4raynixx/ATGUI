@@ -272,20 +272,25 @@ def file_g(title: str = "", files: list = [], color: str = "white", style: str =
     print(recursive_print_files(files, "", True))
     pass
 
+# select, input
+
+#def box_input(text: str = "", color: str = "white",):
+
+
 guis = {
     "equalsbar": {
         "function": equalsbar_g,
-        "menu": True,
+        "menu": "select",
         "delay": 0.1
     },
     "box": {
         "function": box_g,
-        "menu": True,
+        "menu": "select",
         "delay": 0.1
     },
     "plusminus": {
         "function": plusminus_g,
-        "menu": True,
+        "menu": "select",
         "delay": 0.1
     },
     "files": {
