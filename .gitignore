@@ -1,0 +1,6 @@
+__pycache__
+dist
+tests/__pycache__
+src/atgui/__pycache__
+src/atgui.egg-info
+_BACKUP
