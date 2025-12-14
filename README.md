@@ -31,3 +31,6 @@ pip install git+https://github.com/x4raynixx/ATGUI
 # Contributing
 
 > Check the [Contributing](CONTRIBUTING.md) page for more details
+
+# Contributors
+![](https://contrib.rocks/image?repo=x4raynixx/ATGUI)
