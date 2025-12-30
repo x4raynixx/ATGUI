@@ -20,4 +20,4 @@ This project uses python 3, so older versions simply won't work.
 
 # Have fun
 
-Of course don't forget to hydrate, rest up and stay healthy!
+Of course don't forget to hydrate, rest up and stay healthy.
